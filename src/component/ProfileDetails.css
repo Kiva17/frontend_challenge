@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+  font-size: 20px;
+}
+.eachbox{
+ text-align: center;
+ width: 100%;
+}
+
+.eachkey{
+    display: flex;
+    width:40%;
+
+}
+
+.eachvalueitem{
+    display: flex;
+    width:60%;
+
+}
+
+strong{
+
+    margin-left: 0.3rem;
+    font-size: 20px
+}
+
+.vl {
+    padding: 1%;
+    border-left: 1px solid rgb(6, 6, 6);
+    height: 100vh;
+  }
+  .horizontalline{
+    display: none;
+  }
+
+/* haven't implemented  properly the media queries. */
+
+@media screen and (max-width: 899px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+  
+
+      /* .leftbuttons{
+        display: none;
+      } */
+
+}
+
+@media screen and (max-width: 1500px) {
+
+    /* .leftbuttons{
+        display: none;
+    } */
+
+    .vl {
+        display: none;
+      }
+
+      .horizontalline{
+        display: block;
+      }
+      /* .avatar{
+
+        margin-top:2% ;
+        margin-left:"25%" ;
+        width: "50%";
+        height: "25%";
+      } */
+
+
+}
